@@ -1,3 +1,4 @@
+from test import evaluate_test, tests
 def quick_sort(nums, start=0, end=None):
     if end is None:
         nums = list(nums)
@@ -26,6 +27,5 @@ def partition(nums, start=0, end=None):
     else:
         return end
 
-lst = [5,2,6,1,3,8,5,2,9]
-print(quick_sort(lst))
+evaluate_test(quick_sort,tests)
 
