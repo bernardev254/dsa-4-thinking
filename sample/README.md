@@ -24,3 +24,10 @@
 - if the area is grater that the max_area then max_area = area
 - adjust the pointer such that you advance to a taller wall than the min wall 
 - return the max area
+
+## run
+`
+git clone https://github.com/bernardev254/dsa-4-thinking.git
+cd sample
+python3 max_area.py
+`
